@@ -27,9 +27,9 @@ public class TestUtils {
 		int rows = sheet.getPhysicalNumberOfRows();
 		int columns = hrow.getLastCellNum();
 		
-		Object testData[][] = new Object[rows-1][columns];
+		Object testData[][] = new Object[rows][columns];
 		
-		for(int i=0; i<rows-1; i++) {
+		for(int i=0; i<rows; i++) {
 			HSSFRow row = sheet.getRow(i + 1);
 			for(int j =0; j<columns; j++) {
 				if(row == null) {
