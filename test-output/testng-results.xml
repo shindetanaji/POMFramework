@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-09T08:50:24 IST" name="Suite" finished-at="2024-01-09T08:50:29 IST" duration-ms="5050">
+  <suite started-at="2024-01-10T09:06:34 IST" name="Suite" finished-at="2024-01-10T09:06:46 IST" duration-ms="11322">
     <groups>
     </groups>
-    <test started-at="2024-01-09T08:50:24 IST" name="Test" finished-at="2024-01-09T08:50:29 IST" duration-ms="5050">
+    <test started-at="2024-01-10T09:06:34 IST" name="Test" finished-at="2024-01-10T09:06:46 IST" duration-ms="11322">
       <class name="com.qc.pom.tests.POMTest">
-        <test-method is-config="true" signature="doSetup()[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:18 IST" name="doSetup" finished-at="2024-01-09T08:50:24 IST" duration-ms="5233" status="PASS">
+        <test-method is-config="true" signature="doSetup()[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:29 IST" name="doSetup" finished-at="2024-01-10T09:06:34 IST" duration-ms="5006" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doSetup -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:24 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-09T08:50:25 IST" duration-ms="604" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:35 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-10T09:06:35 IST" duration-ms="651" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:25 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-09T08:50:25 IST" duration-ms="461" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:36 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-10T09:06:36 IST" duration-ms="421" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -53,7 +53,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:25 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-09T08:50:26 IST" duration-ms="493" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:36 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-10T09:06:36 IST" duration-ms="527" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,7 +74,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:26 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-09T08:50:26 IST" duration-ms="437" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:36 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-10T09:06:37 IST" duration-ms="492" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -95,7 +95,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:26 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-09T08:50:27 IST" duration-ms="577" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:37 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-10T09:06:37 IST" duration-ms="486" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:27 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-09T08:50:27 IST" duration-ms="479" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:37 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-10T09:06:38 IST" duration-ms="531" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -137,7 +137,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:27 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-09T08:50:29 IST" duration-ms="1439" status="PASS">
+        <test-method signature="doLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:38 IST" name="doLogin" data-provider="loginData" finished-at="2024-01-10T09:06:40 IST" duration-ms="1986" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,193 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qc.pom.tests.POMTest@45ca843]" started-at="2024-01-09T08:50:29 IST" name="tearDown" finished-at="2024-01-09T08:50:30 IST" duration-ms="680" status="PASS">
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:40 IST" name="doRegister" data-provider="registerData" finished-at="2024-01-10T09:06:41 IST" duration-ms="1118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All are empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:41 IST" name="doRegister" data-provider="registerData" finished-at="2024-01-10T09:06:42 IST" duration-ms="933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Name is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:42 IST" name="doRegister" data-provider="registerData" finished-at="2024-01-10T09:06:43 IST" duration-ms="853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mobile is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:43 IST" name="doRegister" data-provider="registerData" finished-at="2024-01-10T09:06:44 IST" duration-ms="954" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Email is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:44 IST" name="doRegister" data-provider="registerData" finished-at="2024-01-10T09:06:45 IST" duration-ms="882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Password is empty]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[91454254]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queeu@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method signature="doRegister(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:45 IST" name="doRegister" data-provider="registerData" finished-at="2024-01-10T09:06:46 IST" duration-ms="962" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[All are valid]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[queueu]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9145425494]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[queue@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doRegister -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.qc.pom.tests.POMTest@757acd7b]" started-at="2024-01-10T09:06:46 IST" name="tearDown" finished-at="2024-01-10T09:06:47 IST" duration-ms="473" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
