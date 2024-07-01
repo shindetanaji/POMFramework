@@ -23,6 +23,9 @@ public class LoginPage {
 	@FindBy(id = "submit")
 	WebElement signin;
 	
+	@FindBy(linkText = "Register a new membership")
+	WebElement regPageLink;
+	
 	public void enterEmail(String uName) {
 		email.clear();
 		email.sendKeys(uName);
@@ -53,5 +56,9 @@ public class LoginPage {
 	public boolean verifyLoginPageTitle() {
 		String actResult = driver.getTitle();
 		return actResult.equals("Queue Codes | Log in");
+	}
+	
+	public void clickOnRegPageLink() {
+		regPageLink.click();
 	}
 }
